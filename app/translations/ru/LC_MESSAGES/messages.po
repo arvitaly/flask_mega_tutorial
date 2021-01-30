@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-30 18:42+0800\n"
+"POT-Creation-Date: 2021-01-30 22:58+0800\n"
 "PO-Revision-Date: 2021-01-30 18:17+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -39,6 +39,14 @@ msgstr "Запомнить меня"
 msgid "Sign In"
 msgstr "Войти"
 
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:18
+msgid "Error: the translation service failed."
+msgstr ""
+
 #: app/templates/404.html:4
 msgid "Not Found"
 msgstr "Не найдено"
@@ -47,10 +55,18 @@ msgstr "Не найдено"
 msgid "Back"
 msgstr "Назад"
 
-#: app/templates/_post.html:14
+#: app/templates/_post.html:13
 #, python-format
 msgid "%(username)s said %(when)s"
 msgstr "%(username)s написал %(when)s"
+
+#: app/templates/_post.html:24
+msgid "Translate"
+msgstr "Перевести"
+
+#: app/templates/base.html:21
+msgid "Error: Could not contact server."
+msgstr "Ошибка: Нет соединения с сервером"
 
 #: app/templates/index.html:5
 #, python-format

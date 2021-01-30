@@ -2,5 +2,8 @@
   "python.pythonPath": "${workspaceFolder}/venv/bin/python3.7",
   "python.analysis.extraPaths": [
     "${workspaceFolder}/venv/lib/python3.7/site-packages"
-  ]
+  ],
+  "files.associations": {
+    "*.html": "jinja-html"
+  }
 }
